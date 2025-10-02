@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - LightZone
+  - shadow
+  - Ground
+  - PuzzlePiece
+  - Enemy
+  - transfrom
+  - start
+  - Switch
+  - Lift
+  - Shadow
+  - Key
+  - Door
+  - PushableBox
+  - Obstacle
+  - WaterDrop
+  - ShadowGround
+  - ShadowBox
+  - Platform
+  - Slot
+  - PuzzleTrigger
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - RealPlayer
+  - ShadowPlayer
+  - RealEnvironment
+  - ShadowEnvironment
+  - Wall
+  - kibako
+  - Box
+  - Light
+  - RealWorld
+  - ShadowWorld
+  - DarkZone
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: RealWorld
+    uniqueID: 123629311
+    locked: 0
+  - name: ShadowWorld
+    uniqueID: 3812832539
+    locked: 0
+  - name: Light
+    uniqueID: 2374791421
+    locked: 0
+  - name: Player
+    uniqueID: 1440757115
+    locked: 0
+  - name: DarkOverlay
+    uniqueID: 1649321871
+    locked: 0
+  - name: ShadowObject
+    uniqueID: 1277426793
+    locked: 0
+  m_RenderingLayers:
+  - Default

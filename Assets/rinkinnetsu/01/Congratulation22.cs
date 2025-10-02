@@ -1,0 +1,26 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class Congratulation22 : MonoBehaviour
+{
+    public void NextLevelGameButton()
+    {
+        Debug.Log("Next Level");
+        SceneManager.LoadScene("Level3");
+    }
+    public void ReplayGameButton()
+    {
+        Debug.Log("Replay");
+        SceneManager.LoadScene("Level2");
+    }
+    public void Replay3GameButton()
+    {
+        Debug.Log("Replay");
+        SceneManager.LoadScene("map");
+    }
+    public void returnButton()
+    {
+        Debug.Log("return");
+        SceneManager.LoadScene("Start");
+    }
+}
