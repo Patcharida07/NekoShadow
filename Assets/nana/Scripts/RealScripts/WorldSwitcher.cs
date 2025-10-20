@@ -34,7 +34,7 @@ public class WorldSwitcher : MonoBehaviour
     void Update()
     {
         // SPACE = สลับร่าง
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             isControllingReal = !isControllingReal;
             GameObject activePlayer = isControllingReal ? realPlayer : shadowPlayer;
