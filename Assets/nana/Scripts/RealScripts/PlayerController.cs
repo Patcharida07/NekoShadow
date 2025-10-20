@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // Jump
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space)) && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
