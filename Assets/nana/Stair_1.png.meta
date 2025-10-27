@@ -142,10 +142,10 @@ TextureImporter:
       name: Stair_1_0
       rect:
         serializedVersion: 2
-        x: 260
-        y: 20
-        width: 1399
-        height: 975
+        x: 261
+        y: 21
+        width: 1397
+        height: 973
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ccb8d8a7ab1acf34b97b094289f241f6
     internalID: 0
     vertices: []
     indices: 

@@ -1,0 +1,1626 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.47f1 (2ad1ed33fd3b) revision 2806253'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ja' Physical Memory: 32612 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.47f1-x86_64\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/student/Documents/Github/NekoShadow
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51033
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/student/Documents/Github/NekoShadow
+C:/Users/student/Documents/Github/NekoShadow
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [33620]  Target information:
+
+Player connection [33620]  * "[IP] 172.16.1.114 [Port] 0 [Flags] 2 [Guid] 2589672808 [EditorId] 2589672808 [Version] 1048832 [Id] WindowsEditor(7,tcj) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [33620] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33620] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.63 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.47f1 (2ad1ed33fd3b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.47f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/student/Documents/Github/NekoShadow/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
+    Vendor:   NVIDIA
+    VRAM:     11996 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.47f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.47f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.47f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.47f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002162 seconds.
+- Loaded All Assemblies, in  0.259 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.230 seconds
+Domain Reload Profiling: 487ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (89ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (91ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (230ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (194ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.590 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.74 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling: 1201ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (407ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (133ms)
+			BuildScriptInfoCaches (57ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (613ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.07 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7234 unused Assets / (3.6 MB). Loaded Objects now: 7945.
+Memory consumption went from 182.8 MB to 179.3 MB.
+Total: 6.314400 ms (FindLiveObjects: 0.882700 ms CreateObjectMapping: 0.407700 ms MarkObjects: 3.603100 ms  DeleteObjects: 1.418100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10187540.320193 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_120.asset
+  artifactKey: Guid(5b62a520dd4346e48add46a2f66196eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_120.asset using Guid(5b62a520dd4346e48add46a2f66196eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e6918570b1ca858b401821aaef6273c') in 0.1552806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Level2.unity
+  artifactKey: Guid(fbd92468b8179b543bd8d6c0750d42aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Level2.unity using Guid(fbd92468b8179b543bd8d6c0750d42aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ba2dd7d1e6edf6252e76121843bd390') in 0.0097679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/nana/Scripts/owToPlayGameUI.cs
+  artifactKey: Guid(152c350b953b9ad43a2aece035678954) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Scripts/owToPlayGameUI.cs using Guid(152c350b953b9ad43a2aece035678954) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2097b22c9fdb465072bfb7cae79bc522') in 0.005713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/nana/ScriptsLevel3/BoxLightTrigger.cs
+  artifactKey: Guid(1b85d26c29cb96d4f969036f489254fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/ScriptsLevel3/BoxLightTrigger.cs using Guid(1b85d26c29cb96d4f969036f489254fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1585efa2d56f348b5fdbf2893f8680f') in 0.0032507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_12.asset
+  artifactKey: Guid(2048d3e5b1bd6ec459a07bc2fab21248) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_12.asset using Guid(2048d3e5b1bd6ec459a07bc2fab21248) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4df300fa495d9921d6cf0cacae8c9ddf') in 0.0036305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_19.asset
+  artifactKey: Guid(3a631065b29db0241882a6047bfd1132) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_19.asset using Guid(3a631065b29db0241882a6047bfd1132) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '377034369c09d3f49b6f090b360ccbbd') in 0.0034159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_16.asset
+  artifactKey: Guid(d2f3a28560ede4a41bb9970e1ac05f70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_16.asset using Guid(d2f3a28560ede4a41bb9970e1ac05f70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0387b85b500a487cf34c90371f5f11f8') in 0.0035785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_47.asset
+  artifactKey: Guid(a0b3fa4857528d145a9f91430e5e288d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_47.asset using Guid(a0b3fa4857528d145a9f91430e5e288d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a0d0ff1d9cf5f9b04ac3a1cc4850e58') in 0.0033816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_54.asset
+  artifactKey: Guid(458002a895b855047bdce8c5e9be2686) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_54.asset using Guid(458002a895b855047bdce8c5e9be2686) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0479756f86baa3bafbe763a9179646f2') in 0.0032622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_41.asset
+  artifactKey: Guid(95fed1a32026a9a478de75b5973d8dc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_41.asset using Guid(95fed1a32026a9a478de75b5973d8dc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f74a93b819406e3e9013635d01e7009d') in 0.0044161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_129.asset
+  artifactKey: Guid(3382aae218aee064e8fcb80c586b3e0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_129.asset using Guid(3382aae218aee064e8fcb80c586b3e0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea23cbb6785203834dd54e3815ab5383') in 0.004143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_49.asset
+  artifactKey: Guid(8c9c36023319d97459039eb907192cb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_49.asset using Guid(8c9c36023319d97459039eb907192cb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc83b4d59e44f29e0282e95d15fb0b5d') in 0.0034051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_14.asset
+  artifactKey: Guid(e092e93a524088f4c97ad55729042a67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_14.asset using Guid(e092e93a524088f4c97ad55729042a67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '574795b517da27aea6e511312143fba3') in 0.0031768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_4.asset
+  artifactKey: Guid(b5fdc33929c8cb148975ef817758c46b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_4.asset using Guid(b5fdc33929c8cb148975ef817758c46b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0cea66c68a4dd26ee3a60dd7d668b71') in 0.0031019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_53.asset
+  artifactKey: Guid(5e9739d5bd80ec243864652f87f21843) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_53.asset using Guid(5e9739d5bd80ec243864652f87f21843) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2eea2ef91c64594f58e2cde25c6d548a') in 0.0033229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_25.asset
+  artifactKey: Guid(2e71ff8c41cf7524e88acdccec567b4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_25.asset using Guid(2e71ff8c41cf7524e88acdccec567b4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7174c02e0c9185a8e259ad17248c2204') in 0.0034683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_31.asset
+  artifactKey: Guid(057458933c8ce2b438be9763ec80c4b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_31.asset using Guid(057458933c8ce2b438be9763ec80c4b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84fada700df52cf45741a749cd178881') in 0.0031455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/object/door3.png
+  artifactKey: Guid(5c134218a46e15a4f8df3e290efc4722) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/object/door3.png using Guid(5c134218a46e15a4f8df3e290efc4722) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f68dd91510c9cc3ed94485c67bcdc91') in 0.0291195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/ScriptsLevel3/LiftController3.cs
+  artifactKey: Guid(97ce5f13df8bf5d48939e37d19656628) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/ScriptsLevel3/LiftController3.cs using Guid(97ce5f13df8bf5d48939e37d19656628) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '689a845f0b3fae4b40d1460b81d56402') in 0.0026308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/ScriptsLevel3/PuzzleScene.unity
+  artifactKey: Guid(b18e22b14e17c164db9271d1cc024402) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/ScriptsLevel3/PuzzleScene.unity using Guid(b18e22b14e17c164db9271d1cc024402) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f7cacb3c90b58ce0286b40a0ae3721a') in 0.0032356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Girder_3.png
+  artifactKey: Guid(42402f0f1ad2a52459dd3a2fbf74b505) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Girder_3.png using Guid(42402f0f1ad2a52459dd3a2fbf74b505) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a15aefa69c07bae585f549bbfe9bc828') in 0.0068292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/object/Jigsaw 4.png
+  artifactKey: Guid(df134667440e07445b97dcbb692aeb96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/object/Jigsaw 4.png using Guid(df134667440e07445b97dcbb692aeb96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e824b07919994e8977e4fc1d1b193bcd') in 0.0081222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tejas/Frictionless.physicsMaterial2D
+  artifactKey: Guid(2040dfff99aed1e4eb8e103e53e5f93d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tejas/Frictionless.physicsMaterial2D using Guid(2040dfff99aed1e4eb8e103e53e5f93d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ca169d06014aca52612878d5db5a3a2') in 0.007318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/パズル/BigPicture.psd
+  artifactKey: Guid(80132e57392ed724f98c26e76d280e8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/パズル/BigPicture.psd using Guid(80132e57392ed724f98c26e76d280e8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e4dce28d8091a1a0f49b366a5de779e') in 0.0077218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Prefabs/RealPlayer.prefab
+  artifactKey: Guid(fd44916e440efec41a897a3d83407f65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Prefabs/RealPlayer.prefab using Guid(fd44916e440efec41a897a3d83407f65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72367dede5b3264ef7523cf3d21e71ab') in 0.0407094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099261 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_57.asset
+  artifactKey: Guid(79f967ef85aafcb47aa5fc4e09a8d592) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_57.asset using Guid(79f967ef85aafcb47aa5fc4e09a8d592) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd015dae825ea0e000b51b99f3f30d825') in 0.0039081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_78.asset
+  artifactKey: Guid(09b3f7877a27eab4bbb93744e7531193) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_78.asset using Guid(09b3f7877a27eab4bbb93744e7531193) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c484f7c66af9cb4f0d57f4b5f3a6b90') in 0.0038324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_71.asset
+  artifactKey: Guid(d12ffc530397a1641b2217fc5eb26e74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_71.asset using Guid(d12ffc530397a1641b2217fc5eb26e74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f303e76ca8e6efdbf6f356d85749c345') in 0.0037546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_103.asset
+  artifactKey: Guid(7a5ca51aaa72d8c46939ffe53937ec78) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_103.asset using Guid(7a5ca51aaa72d8c46939ffe53937ec78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56baf1e507a6100e12832b2bafc59dde') in 0.0055036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_73.asset
+  artifactKey: Guid(8a5c505cf4eece440b3d2febfb00cf02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_73.asset using Guid(8a5c505cf4eece440b3d2febfb00cf02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f58ab2d1b00e5d3c2c0d8c989bf775ca') in 0.0033035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_85.asset
+  artifactKey: Guid(c6074769433b2c14fbb41733bc321b97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_85.asset using Guid(c6074769433b2c14fbb41733bc321b97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5231af45a9f539fabb5d84991894126') in 0.0036644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_87.asset
+  artifactKey: Guid(5a277d7f75effcc46b3b4b9ffed3b723) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_87.asset using Guid(5a277d7f75effcc46b3b4b9ffed3b723) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca889beda9807a776f7c16d6b0e99042') in 0.0066839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_121.asset
+  artifactKey: Guid(ea7f005bf84bfbb418e77a5808d7fe49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_121.asset using Guid(ea7f005bf84bfbb418e77a5808d7fe49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8d1572c730360cc674a351367bde151') in 0.0031303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_106.asset
+  artifactKey: Guid(0f5abfadb2900b044b8bd308ae8e8a29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_106.asset using Guid(0f5abfadb2900b044b8bd308ae8e8a29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38e7c15d36af06caae24312252a0eeaa') in 0.0036895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_63.asset
+  artifactKey: Guid(f349e0fb036314747824cc282dff0ac8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_63.asset using Guid(f349e0fb036314747824cc282dff0ac8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ec8104ff8c8cf3cec7b6a77a114b90b') in 0.0048413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_110.asset
+  artifactKey: Guid(3705ab7027a4d7a448ac3c1d37575e1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_110.asset using Guid(3705ab7027a4d7a448ac3c1d37575e1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4806ddca76f912d82cd592d6bd0d72af') in 0.0054248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_7.asset
+  artifactKey: Guid(ced1e386928d2704690bb16624a13e04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_7.asset using Guid(ced1e386928d2704690bb16624a13e04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd49d185c9cd6c4143442fd5ce192382e') in 0.0052855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_145.asset
+  artifactKey: Guid(d54fdc25b3438c5459a0ce1b12d20c80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_145.asset using Guid(d54fdc25b3438c5459a0ce1b12d20c80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab6f17389e7ac08a64e76de9b6e4f0a4') in 0.0031847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_74.asset
+  artifactKey: Guid(402135c92a4acbc4dac1d0eb3cc49d97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_74.asset using Guid(402135c92a4acbc4dac1d0eb3cc49d97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3815546babc77c4550645184c97795b2') in 0.0034612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_137.asset
+  artifactKey: Guid(03fb16b22cfcb224f81e131864d0e920) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_137.asset using Guid(03fb16b22cfcb224f81e131864d0e920) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cea1b24a10427d023757d7867344c1aa') in 0.0031741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_118.asset
+  artifactKey: Guid(be20f0e60b2341d49b0a127b1dd9ddcf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_118.asset using Guid(be20f0e60b2341d49b0a127b1dd9ddcf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b15a585f8504489ccdecbd164419db42') in 0.0040377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_75.asset
+  artifactKey: Guid(4218540896004284ea3dac2fe6ec3342) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_75.asset using Guid(4218540896004284ea3dac2fe6ec3342) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2f9c45800a3b523aba969a4c7f8fbcc') in 0.0040222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_88.asset
+  artifactKey: Guid(68a1316fe109f9e438485ffc0eb8439c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_88.asset using Guid(68a1316fe109f9e438485ffc0eb8439c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2e5ef25031ba2ecff2e69cc20ab0055') in 0.0037797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_72.asset
+  artifactKey: Guid(3c70d0d91f6463c44bd77e95b3fa3ace) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_72.asset using Guid(3c70d0d91f6463c44bd77e95b3fa3ace) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15fca65e145d1b082597024e31b23097') in 0.0033961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/nana/Tiles/Dungeon Tile Set_9.asset
+  artifactKey: Guid(a89e09273e974a34f8e0629d39f59a48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/Dungeon Tile Set_9.asset using Guid(a89e09273e974a34f8e0629d39f59a48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff633e1c3a4d7757ab4627cd66292daf') in 0.0036708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130313 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_146.asset
+  artifactKey: Guid(54d827757dd1fce4c999a819b53340a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_146.asset using Guid(54d827757dd1fce4c999a819b53340a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e769d5e925f7d0b07f78f8d5b8b52ab') in 0.0041716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_221.asset
+  artifactKey: Guid(f90f054e2692a0341a032bac7c30327b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_221.asset using Guid(f90f054e2692a0341a032bac7c30327b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01cbbb7f4e0b5d6438ce7d0290f07b10') in 0.0041765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_219.asset
+  artifactKey: Guid(14d3408022d9c2e4f866a0903b09a85d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_219.asset using Guid(14d3408022d9c2e4f866a0903b09a85d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7d0fc629eef2f4838db42344f44ed32') in 0.0041226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_247.asset
+  artifactKey: Guid(e4c0df53f528b2b41956f265d4976373) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_247.asset using Guid(e4c0df53f528b2b41956f265d4976373) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3daba45d1b2b2c5d11938d6d12e768da') in 0.0043881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_239.asset
+  artifactKey: Guid(c9b6f23779e569d448c7ff624b4b0822) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_239.asset using Guid(c9b6f23779e569d448c7ff624b4b0822) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de39c9f602bb5e9c0a55f4d937569719') in 0.0043086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_42.asset
+  artifactKey: Guid(cabadff66c61483409bd68d2f768e4d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_42.asset using Guid(cabadff66c61483409bd68d2f768e4d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45400038e066d629c4ef02a155f8a07e') in 0.0038095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_153.asset
+  artifactKey: Guid(e8b309ed9a237744da491ffd5d3cb51e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_153.asset using Guid(e8b309ed9a237744da491ffd5d3cb51e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '107590e4ebcf0b4ef84cc044fe054d96') in 0.0042569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_218.asset
+  artifactKey: Guid(c0a79f409b5faa64dbc225bfc689a844) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_218.asset using Guid(c0a79f409b5faa64dbc225bfc689a844) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52c7c54659e00595bc33d29ab862081a') in 0.0037002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_253.asset
+  artifactKey: Guid(709847f3c3426794b9c774af34594b43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_253.asset using Guid(709847f3c3426794b9c774af34594b43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4dd9328593138b36e705c27a4c89716') in 0.003803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_31.asset
+  artifactKey: Guid(488acab069b00f64db193aa30b00c419) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_31.asset using Guid(488acab069b00f64db193aa30b00c419) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a5ccb9d7a41d89946e2ae7fbbd4cf78') in 0.004719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_257.asset
+  artifactKey: Guid(bc34d5ec100f4694caf663595b730e80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_257.asset using Guid(bc34d5ec100f4694caf663595b730e80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31924268f4d15b8bd1ce20c4757ea7a5') in 0.0036534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_44.asset
+  artifactKey: Guid(d19a5a6f72ec9944a8261b87c36db0f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_44.asset using Guid(d19a5a6f72ec9944a8261b87c36db0f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68b269a815f335d52317f55d7455ad4f') in 0.0041668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_223.asset
+  artifactKey: Guid(884ac4599a8969c449131dca312f93dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_223.asset using Guid(884ac4599a8969c449131dca312f93dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f955d4914121791fddd83917e34c7df0') in 0.0041573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_152.asset
+  artifactKey: Guid(0cc84937bfba5404388688e4dcdc20b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_152.asset using Guid(0cc84937bfba5404388688e4dcdc20b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d66ce9744352439b1204507d25b1a42') in 0.0036659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_252.asset
+  artifactKey: Guid(e84b143d53f14c442b9dbab6ee1dde54) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_252.asset using Guid(e84b143d53f14c442b9dbab6ee1dde54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afb16726e7eedcb9dec606518fb62085') in 0.0032938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_216.asset
+  artifactKey: Guid(6c568544955e39d44bc767b29787f900) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_216.asset using Guid(6c568544955e39d44bc767b29787f900) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53227f5a2472b05357058fa6c7ff2b43') in 0.0040801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_214.asset
+  artifactKey: Guid(eddd70bec2f168d41954edc28519f662) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_214.asset using Guid(eddd70bec2f168d41954edc28519f662) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '514eac6d99e5b50f29400604ad3de8bd') in 0.0033787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_203.asset
+  artifactKey: Guid(5760be557a4c06d43b4f0fc336646061) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_203.asset using Guid(5760be557a4c06d43b4f0fc336646061) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06ea1d9c91853c586f39539ed09ba5f8') in 0.0040907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_168.asset
+  artifactKey: Guid(ee1950693ee34274786415361f13e82d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_168.asset using Guid(ee1950693ee34274786415361f13e82d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8816fd6a333c128929664e5fcdb0b8f0') in 0.00415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_236.asset
+  artifactKey: Guid(707ac262026aa55459b692ef72f56be5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_236.asset using Guid(707ac262026aa55459b692ef72f56be5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72e1b04cd4a81da1a29667f1f1a3f1c0') in 0.0042995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_174.asset
+  artifactKey: Guid(ab402cc979c1cbf4d8786a7c707359cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_174.asset using Guid(ab402cc979c1cbf4d8786a7c707359cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffd1ca9e338190923eb2db1fa9708571') in 0.0041873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_191.asset
+  artifactKey: Guid(caa0693d2e1d0f74eb8761a36568017f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_191.asset using Guid(caa0693d2e1d0f74eb8761a36568017f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe1b4dfd0eb25c7847d4c5a0ae62c331') in 0.0038748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_23.asset
+  artifactKey: Guid(3097282ba31c2aa48b24efe58c408d3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_23.asset using Guid(3097282ba31c2aa48b24efe58c408d3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c8b8e89340d421c7310b97a0222f45b') in 0.0039595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_16.asset
+  artifactKey: Guid(83853ac7b7b64984b8848a12e520f8bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_16.asset using Guid(83853ac7b7b64984b8848a12e520f8bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '149e8e1e1dafdefb9c4745b3c0ea5aa5') in 0.003431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/rinkinnetsu/01/how_to_play3.png
+  artifactKey: Guid(4026266a586726446b05171a7fbe083e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/rinkinnetsu/01/how_to_play3.png using Guid(4026266a586726446b05171a7fbe083e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfad9f6ef07590cabcf5b806e29fadd4') in 0.0069817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_8.asset
+  artifactKey: Guid(d075247c93b77f5449814487d00ea4b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_8.asset using Guid(d075247c93b77f5449814487d00ea4b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c82175c392f1221d9e7704b5953477d9') in 0.0036441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_7.asset
+  artifactKey: Guid(bfb79fe3c016d0444bb75c5e1eefb528) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_7.asset using Guid(bfb79fe3c016d0444bb75c5e1eefb528) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '377b8035a0c624035752c439504036fa') in 0.0032157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/rinkinnetsu/01/Congratulation22.unity
+  artifactKey: Guid(99c9d6284e2f4264fb346f815597ee92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/rinkinnetsu/01/Congratulation22.unity using Guid(99c9d6284e2f4264fb346f815597ee92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7384d4739170ab1793c21d5f699ab560') in 0.0030969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tejas/Prefabs/CinemachineCamera.prefab
+  artifactKey: Guid(d36f07f847c0de646856661d928d2749) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tejas/Prefabs/CinemachineCamera.prefab using Guid(d36f07f847c0de646856661d928d2749) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e77c600d8009cdd68db7bcb9491a116e') in 0.0117139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_71.asset
+  artifactKey: Guid(da7435250add8d747bacb104a043dd6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_71.asset using Guid(da7435250add8d747bacb104a043dd6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67404f49b2d5dab8ab69dca9a5d70e0b') in 0.0030248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_72.asset
+  artifactKey: Guid(be79a9accc483974dbe43b5c5f75e708) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_72.asset using Guid(be79a9accc483974dbe43b5c5f75e708) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9b55cebaf7cb159b6b491c1699b37e9') in 0.0036296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/rinkinnetsu/01/VolumeSettings.cs
+  artifactKey: Guid(a66df31a89a1f61458dbbb814b7f854d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/rinkinnetsu/01/VolumeSettings.cs using Guid(a66df31a89a1f61458dbbb814b7f854d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84de8238d4d37223ed39a5175030ade5') in 0.0021574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/rinkinnetsu/01/setting3.png
+  artifactKey: Guid(b63e1eac09f6fbc4ead08e8429606f26) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/rinkinnetsu/01/setting3.png using Guid(b63e1eac09f6fbc4ead08e8429606f26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47ab094e4912266691d2b324d542836c') in 0.0053785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_6.asset
+  artifactKey: Guid(1d382b30ca010c745804760c514b3e73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_6.asset using Guid(1d382b30ca010c745804760c514b3e73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '491aa0d7bfc9aee47a0a4d8818926ef6') in 0.0036306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_56.asset
+  artifactKey: Guid(f0437acc23c4f2042ae8cd78404a7b02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_56.asset using Guid(f0437acc23c4f2042ae8cd78404a7b02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '425e09df756a7c52ab1b18a3c477cc16') in 0.0030509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/rinkinnetsu/01/SoundManager.cs
+  artifactKey: Guid(35b9add9413ee33418473bc21526f5e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/rinkinnetsu/01/SoundManager.cs using Guid(35b9add9413ee33418473bc21526f5e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c32097c1b8a4f1cd3ac4371b78de283') in 0.0023183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_75.asset
+  artifactKey: Guid(ad3e2074ff3cd584883215d63fe5faa8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_75.asset using Guid(ad3e2074ff3cd584883215d63fe5faa8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0dec2f59659c49524c46ca7f1b2844db') in 0.0046912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_92.asset
+  artifactKey: Guid(e26848cd12f49264785b54eff8d51966) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_92.asset using Guid(e26848cd12f49264785b54eff8d51966) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb724459250f7f2d596d65bfd784ffd9') in 0.003079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_51.asset
+  artifactKey: Guid(d6e7ae3aafd378d449260b5e49fd0d68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_51.asset using Guid(d6e7ae3aafd378d449260b5e49fd0d68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '242010e734b88b7cbac422b185ffdd12') in 0.0032233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/rinkinnetsu/01/001.jpg
+  artifactKey: Guid(9c64ba2da0078814a9c08161989827f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/rinkinnetsu/01/001.jpg using Guid(9c64ba2da0078814a9c08161989827f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40184e9180354608b2f0b0c4d884938f') in 0.0067795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/rinkinnetsu/01/wanfa.unity
+  artifactKey: Guid(1bef99dfb53c4e545983441adfe7c484) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/rinkinnetsu/01/wanfa.unity using Guid(1bef99dfb53c4e545983441adfe7c484) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c9ec9c4acb1208b5f3a3a7b6cfae0c9') in 0.0034984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/rinkinnetsu/01/restart.png
+  artifactKey: Guid(4ba23034a1ae9194b8abd17391de68af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/rinkinnetsu/01/restart.png using Guid(4ba23034a1ae9194b8abd17391de68af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b570cad68af3802fb338114fed09f33e') in 0.0056781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/rinkinnetsu/01/wanfa.cs
+  artifactKey: Guid(840681b47714f3345accfb92df8c3b6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/rinkinnetsu/01/wanfa.cs using Guid(840681b47714f3345accfb92df8c3b6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22ada61de7f7babfcb424e0b6b9708ee') in 0.0025905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_88.asset
+  artifactKey: Guid(463b411e33813094a86c3efb4ebe5e0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_88.asset using Guid(463b411e33813094a86c3efb4ebe5e0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa9ada80682f18f5a38e3019a0f678ed') in 0.0037129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_57.asset
+  artifactKey: Guid(3ac7a5d78ddb0ad41988f9c5448a2e89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_57.asset using Guid(3ac7a5d78ddb0ad41988f9c5448a2e89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc3373f5d0027f969cb47f78a3c309fb') in 0.0031766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_30.asset
+  artifactKey: Guid(07fab202667795943b2864999f9dc104) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_30.asset using Guid(07fab202667795943b2864999f9dc104) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e76a1eecf73072718bb200c161ba646') in 0.0031371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_170.asset
+  artifactKey: Guid(b94a5a7a25c16bb40aa0568aaccd8fe7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_170.asset using Guid(b94a5a7a25c16bb40aa0568aaccd8fe7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e7e8e7afb4c7af02f320a6b9cc0ec12') in 0.0036862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd371cf5638b4c4e798f0b39b34b3a7d') in 0.0030261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/nana/Scripts/RealScripts/WaterDropSpawner.cs
+  artifactKey: Guid(a91018feed73cf440a5dc3e7fd54a7ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Scripts/RealScripts/WaterDropSpawner.cs using Guid(a91018feed73cf440a5dc3e7fd54a7ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e10665d6d17519b8d9ebc3a05fb2e006') in 0.0021177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c119f8c50c4c42a3c315c187d8a7b0d') in 0.0068568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56ac2cff1060f75fc5d0a971119e1227') in 0.0216108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/nana/Scripts/RealScripts/DoorController.cs
+  artifactKey: Guid(1aa142169f4e29847936c13aa0730d36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Scripts/RealScripts/DoorController.cs using Guid(1aa142169f4e29847936c13aa0730d36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ba17a4ad5d627dd99ad768021238adb') in 0.0023051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60e042040486cd524cf2599fd056a1c6') in 0.0151012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b16a720d0268155b61eb9fad2e136a8') in 0.003176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Scripts/RealScripts/LightSwitch.cs
+  artifactKey: Guid(c6c6a9e0582e025488db7cb8273e16d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Scripts/RealScripts/LightSwitch.cs using Guid(c6c6a9e0582e025488db7cb8273e16d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abf285e61c98c5fa20e8044d791d25e7') in 0.0031231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Graphic/操作キャラクター/白猫のスキア/Idel/cat_idle_8.png
+  artifactKey: Guid(d6a5f059307a3994b9bc9c94d0397fac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/白猫のスキア/Idel/cat_idle_8.png using Guid(d6a5f059307a3994b9bc9c94d0397fac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97210006a3790e4901de9185aada1d8f') in 0.0087765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Graphic/操作キャラクター/白猫のスキア/Idel/cat_idle_6.png
+  artifactKey: Guid(dffc9d26c4901db4f8071a1426de3ffa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/白猫のスキア/Idel/cat_idle_6.png using Guid(dffc9d26c4901db4f8071a1426de3ffa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7273e062e3511223afbf8e1c957f048') in 0.0060705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Tejas/Prefabs/RealCamera.prefab
+  artifactKey: Guid(aa7ee99a4921cfb4a95b145af1e98f50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tejas/Prefabs/RealCamera.prefab using Guid(aa7ee99a4921cfb4a95b145af1e98f50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1d52515746b645c10fc956c987059a2') in 0.0192181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/tsuruyosi/Spirct/Shadow/ShadowJump.cs
+  artifactKey: Guid(42e723e8aeae43848aa73b929e570cb5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/tsuruyosi/Spirct/Shadow/ShadowJump.cs using Guid(42e723e8aeae43848aa73b929e570cb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7094f097ffa0d7b96e3e9c1632d876ca') in 0.0020736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/nana/Scripts/RealScripts/DoorController1.cs
+  artifactKey: Guid(b72aa415af6020343a90c4b743cba5fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Scripts/RealScripts/DoorController1.cs using Guid(b72aa415af6020343a90c4b743cba5fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61eb43d3e867cdda031b1fd114f22647') in 0.0021831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/nana/Scripts/RealScripts/SimpleTriggerTest.cs
+  artifactKey: Guid(a40bccb1b0eb06b4e9b3276badb0cf6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Scripts/RealScripts/SimpleTriggerTest.cs using Guid(a40bccb1b0eb06b4e9b3276badb0cf6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '297ec00b59fddd1a6f2fa043078fc99b') in 0.0022534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/tsuruyosi/Spirct/Shadow/ShadowTrans.cs
+  artifactKey: Guid(0f05a74574b8f644f9d60423e32f71b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/tsuruyosi/Spirct/Shadow/ShadowTrans.cs using Guid(0f05a74574b8f644f9d60423e32f71b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19e09cec0f5a8e215b98703477956846') in 0.0025028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/nana/Scripts/RealScripts/RealBoxController.cs
+  artifactKey: Guid(23b06d8467c8fea40bb6c3199cbc0d1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Scripts/RealScripts/RealBoxController.cs using Guid(23b06d8467c8fea40bb6c3199cbc0d1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bab9fafa1f5637b4bd709e58169fa7e') in 0.0026568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3e05de9c4db4694b83cff6edcf434d0') in 0.0111487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73028d3419adceedb9b307f74beebaf8') in 0.0029086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4ade9e1a2a0fb6c28d4185a26bb0c37') in 0.0030689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Graphic/操作キャラクター/白猫のスキア/Idel/cat_idle_9.png
+  artifactKey: Guid(8a970bca901988c4a8b82f46e380bc64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/白猫のスキア/Idel/cat_idle_9.png using Guid(8a970bca901988c4a8b82f46e380bc64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69c25da20756e50bbc43204c083184cd') in 0.3071459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_19.png
+  artifactKey: Guid(a9aef24361aae424b9756d6b0deb5a5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_19.png using Guid(a9aef24361aae424b9756d6b0deb5a5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7cd13d005bf7c4cf4eeab6412277342d') in 0.0061944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_22.png
+  artifactKey: Guid(015e06a2e4f4ef043899578921d0268c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_22.png using Guid(015e06a2e4f4ef043899578921d0268c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3474470c404f14f0940e34c75bbc7b04') in 0.0065794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Graphic/操作キャラクター/黒猫のクロ（影）/歩き/黒猫歩き07.png
+  artifactKey: Guid(dc08e6fd4c7abb9459f3b04f60a1040f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/黒猫のクロ（影）/歩き/黒猫歩き07.png using Guid(dc08e6fd4c7abb9459f3b04f60a1040f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82d5e18e6d5bcfec0b32c5ebd48c942a') in 0.0091088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_11.png
+  artifactKey: Guid(eb4060f6be44f0547a5b3c9dc66a39d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_11.png using Guid(eb4060f6be44f0547a5b3c9dc66a39d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5cd9d3f59b054a2984d76cb4cb963b3b') in 0.0074092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_29.png
+  artifactKey: Guid(e21079757ced0bb459fd811d6a248040) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_29.png using Guid(e21079757ced0bb459fd811d6a248040) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '622af39c8cf1bffa40f31e8f316916c2') in 0.0060789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_31.png
+  artifactKey: Guid(58b4c4c1e2b3b354788c4c548f8e4789) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_31.png using Guid(58b4c4c1e2b3b354788c4c548f8e4789) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da8ed7af9fd10c6d11655a96cdd6a9d5') in 0.006066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_05.png
+  artifactKey: Guid(a0c185bed56adff40a1a60d3442a9941) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_05.png using Guid(a0c185bed56adff40a1a60d3442a9941) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfcbc60f577f8bb9c9d953815e5ec2da') in 0.0078005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Graphic/操作キャラクター/黒猫のクロ（影）/歩き/黒猫歩き01.png
+  artifactKey: Guid(553dd395ac1bfae4aad33eda0bbc8f5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/黒猫のクロ（影）/歩き/黒猫歩き01.png using Guid(553dd395ac1bfae4aad33eda0bbc8f5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24900b91af72531b0b1e9c0dc697058b') in 0.0118459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_06.png
+  artifactKey: Guid(b2238608a6ddea2498b4ed6253e811c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_06.png using Guid(b2238608a6ddea2498b4ed6253e811c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac1746b1859ce12872d68902c4fbba37') in 0.0065556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_10.png
+  artifactKey: Guid(53c9b9e55b3469c4f92e5128fdcd9ccb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/黒猫のクロ（影）/Idle/cat_idle2_10.png using Guid(53c9b9e55b3469c4f92e5128fdcd9ccb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1346fc98e584d64f2ae1f73eba24f4d') in 0.0068176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Graphic/操作キャラクター/黒猫のクロ（影）/ジャンプ/kuronekojump04.png
+  artifactKey: Guid(e7dd81e28ca213f408a1ee7ddfece4c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Graphic/操作キャラクター/黒猫のクロ（影）/ジャンプ/kuronekojump04.png using Guid(e7dd81e28ca213f408a1ee7ddfece4c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db8770f7b63fb0224aadd71a8296c99a') in 0.0086864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_25.asset
+  artifactKey: Guid(730e1a9f3a456a5499a71de0a379f3ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_25.asset using Guid(730e1a9f3a456a5499a71de0a379f3ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '463cb511101c942bd87bf1c6982309b8') in 0.0035486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_17.asset
+  artifactKey: Guid(67f5c6b9aad9a304c8c5a36207c4037d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_17.asset using Guid(67f5c6b9aad9a304c8c5a36207c4037d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '710e60a1655ac611cac92a37536c9995') in 0.0034563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_162.asset
+  artifactKey: Guid(c2d4b37708d261b4f812bd1b76a4b873) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_162.asset using Guid(c2d4b37708d261b4f812bd1b76a4b873) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f03a7c315b6c02b226624b7eed03bd3') in 0.0030927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/rinkinnetsu/01/How_to_play_Page_3.png
+  artifactKey: Guid(93e3b44ea5335b34a984e399222e559d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/rinkinnetsu/01/How_to_play_Page_3.png using Guid(93e3b44ea5335b34a984e399222e559d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79213ef4d90fdefebeb123c35df9ac48') in 0.0073156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_2.asset
+  artifactKey: Guid(ceed38df669771348a8c15d6cc71a2c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_2.asset using Guid(ceed38df669771348a8c15d6cc71a2c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1aa079f9c9cdf9b89d1dfa9a0392a10') in 0.0037387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_73.asset
+  artifactKey: Guid(5979e57b548e75f4a86c648ff5cc1dbc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_73.asset using Guid(5979e57b548e75f4a86c648ff5cc1dbc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5bc7ebb03d1d6a524f9ad6036d70233') in 0.0035707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/nana/Scripts/RealScripts/CameraFollow.cs
+  artifactKey: Guid(a6b29c7fa87da184f8eb2ca21f417b7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Scripts/RealScripts/CameraFollow.cs using Guid(a6b29c7fa87da184f8eb2ca21f417b7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '792ceace6f00c1987ccb90c15a0d97e5') in 0.0022421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_224.asset
+  artifactKey: Guid(7fc01dec3fe3eeb48a4f7cb777fc21b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_224.asset using Guid(7fc01dec3fe3eeb48a4f7cb777fc21b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '122c482b262c200af5ba5b538a3a7dd6') in 0.0032345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_70.asset
+  artifactKey: Guid(63fd7f89d51e65e43b03fe7c649791ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_70.asset using Guid(63fd7f89d51e65e43b03fe7c649791ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6089166ca79ee29ff9318c3baafb764e') in 0.0035853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/nana/Tiles/RunnerTileSet_81.asset
+  artifactKey: Guid(9b44c4e3a6915f6498530823498795d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/nana/Tiles/RunnerTileSet_81.asset using Guid(9b44c4e3a6915f6498530823498795d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '907271af1c4625bb2a0765b3339f6357') in 0.0039808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.245150 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b1d687569149b1fcf0a6f70f3cc8228') in 0.299651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.496 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.11 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.548 seconds
+Domain Reload Profiling: 1045ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (548ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (423ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.69 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7232 unused Assets / (4.1 MB). Loaded Objects now: 8019.
+Memory consumption went from 163.6 MB to 159.5 MB.
+Total: 5.519100 ms (FindLiveObjects: 0.465100 ms CreateObjectMapping: 0.283400 ms MarkObjects: 3.409100 ms  DeleteObjects: 1.360600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.504 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.37 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.559 seconds
+Domain Reload Profiling: 1064ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (560ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (427ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.40 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7232 unused Assets / (4.1 MB). Loaded Objects now: 8021.
+Memory consumption went from 163.4 MB to 159.3 MB.
+Total: 5.685800 ms (FindLiveObjects: 0.471400 ms CreateObjectMapping: 0.263600 ms MarkObjects: 3.519800 ms  DeleteObjects: 1.429800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1201.583553 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef
+  artifactKey: Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef using Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ed3b3e170d73a74c0d147754b332724') in 0.0111057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.487 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.44 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.536 seconds
+Domain Reload Profiling: 1024ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (536ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (417ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.85 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7232 unused Assets / (4.0 MB). Loaded Objects now: 8023.
+Memory consumption went from 163.4 MB to 159.4 MB.
+Total: 6.904300 ms (FindLiveObjects: 0.494500 ms CreateObjectMapping: 0.301000 ms MarkObjects: 4.424500 ms  DeleteObjects: 1.683200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.483 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.25 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.538 seconds
+Domain Reload Profiling: 1022ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (303ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (538ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (414ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.17 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7232 unused Assets / (4.0 MB). Loaded Objects now: 8025.
+Memory consumption went from 163.4 MB to 159.4 MB.
+Total: 5.980100 ms (FindLiveObjects: 0.849900 ms CreateObjectMapping: 0.290800 ms MarkObjects: 3.516800 ms  DeleteObjects: 1.321900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.489 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.39 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.548 seconds
+Domain Reload Profiling: 1038ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (548ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (423ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.64 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7232 unused Assets / (4.1 MB). Loaded Objects now: 8027.
+Memory consumption went from 163.4 MB to 159.4 MB.
+Total: 5.389000 ms (FindLiveObjects: 0.462500 ms CreateObjectMapping: 0.268000 ms MarkObjects: 3.320000 ms  DeleteObjects: 1.337600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 440.679440 seconds.
+  path: Assets/Tan/Grid.prefab
+  artifactKey: Guid(87f5958728c698146b123710769d7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tan/Grid.prefab using Guid(87f5958728c698146b123710769d7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb945fe236781538a84f9d59badd8c1b') in 0.3150365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.121285 seconds.
+  path: Assets/Tan/Grid.prefab
+  artifactKey: Guid(87f5958728c698146b123710769d7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tan/Grid.prefab using Guid(87f5958728c698146b123710769d7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01db12af738157723d50fb28e70eef25') in 0.0062975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.518052 seconds.
+  path: Assets/Tan/Grid.prefab
+  artifactKey: Guid(87f5958728c698146b123710769d7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tan/Grid.prefab using Guid(87f5958728c698146b123710769d7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9969f138dae8057a2385d8bddeb9fdaa') in 0.0062901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.190243 seconds.
+  path: Assets/Tan/Grid.prefab
+  artifactKey: Guid(87f5958728c698146b123710769d7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tan/Grid.prefab using Guid(87f5958728c698146b123710769d7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20c283a1ca675ef723517873bdfae156') in 0.0018632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.169203 seconds.
+  path: Assets/Tan/Grid.prefab
+  artifactKey: Guid(87f5958728c698146b123710769d7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tan/Grid.prefab using Guid(87f5958728c698146b123710769d7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2755d17300644a057c342e0da8617951') in 0.0071431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.601039 seconds.
+  path: Assets/Tan/Grid.prefab
+  artifactKey: Guid(87f5958728c698146b123710769d7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tan/Grid.prefab using Guid(87f5958728c698146b123710769d7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b204338d68716e3a6639d418351b77d') in 0.01888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+

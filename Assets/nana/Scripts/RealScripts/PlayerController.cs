@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if(!canMove) return;
+        if (!canMove) return;
 
         // Horizontal movement
         float moveX = Input.GetAxisRaw("Horizontal");
@@ -77,6 +77,7 @@ public class PlayerController : MonoBehaviour
         // Update Animator
         anim.SetFloat("Speed", Mathf.Abs(moveX));
         anim.SetBool("IsJumping", !isGrounded);
+
     }
 
     public void SetCanMove(bool value)

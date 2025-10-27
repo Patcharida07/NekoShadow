@@ -24,6 +24,7 @@ TagManager:
   - Platform
   - Slot
   - PuzzleTrigger
+  - gravel
   layers:
   - Default
   - TransparentFX
