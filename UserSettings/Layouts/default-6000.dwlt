@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 73
+  controlID: 96
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 74
+  controlID: 37
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 75
+  controlID: 38
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -487,7 +487,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 633
+    y: 688
     width: 1603
     height: 298
   m_SerializedDataModeController:
@@ -512,7 +512,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/nana/Scripts
+    - Assets/Tan
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -522,16 +522,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/nana/Scripts
+  - Assets/Tan
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\student\Documents\Github\NekoShadow
+  m_LastProjectPath: C:\Users\student\Documents\GitHub\NekoShadow
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 170}
-    m_SelectedIDs: c8d30000
-    m_LastClickedID: 54216
-    m_ExpandedIDs: 
+    scrollPos: {x: 0, y: 82}
+    m_SelectedIDs: 141b0100
+    m_LastClickedID: 72468
+    m_ExpandedIDs: 00000000a60d0100141b010034320100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -639,8 +639,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1605
-    y: 24
+    x: 1604
+    y: 79
     width: 315
     height: 907
   m_SerializedDataModeController:
@@ -689,7 +689,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 79
     width: 238
     height: 583
   m_SerializedDataModeController:
@@ -705,10 +705,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: c8a4ffff0cfbffffbcbc000070bd000070be00008abe0000a4c00000ccf80000
+      scrollPos: {x: 0, y: 206}
+      m_SelectedIDs: 6e7dfcff
+      m_LastClickedID: -230034
+      m_ExpandedIDs: c28bfcffd890fcff149bfcff8c9dfcff0ca4fcff2ca5fcff62a7fcffd8bcfcff3cc5fcffd008fdffb80afdffd61dfdff1c1ffdff7e90feffa493feff4c95feff3c97feff5cf3feff2ef8feff383a0100e83b01006e6c0100f0780100a4790100a07a0100d47c01000ab202002eb502007ac402009ec80200ecc8020010cc0200e015030090170300c419030060270300842a0300fc2a0300904103005e5d0300aa710300de730300727b0300
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -754,8 +754,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 240
-    y: 24
+    x: 239
+    y: 79
     width: 1363
     height: 583
   m_SerializedDataModeController:
@@ -825,7 +825,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: overlay-container--left
-      displayed: 0
+      displayed: 1
       id: unity-transform-toolbar
       index: 0
       contents: '{"m_Layout":2,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -1326,9 +1326,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 5.351966, y: -8.022725, z: -0.0051816325}
+    m_Target: {x: -3.6841395, y: -3.3625202, z: -0.01906872}
     speed: 2
-    m_Value: {x: 5.351966, y: -8.022725, z: -0.0051816325}
+    m_Value: {x: -3.6841395, y: -3.3625202, z: -0.01906872}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1378,9 +1378,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.060981
+    m_Target: 1.7830011
     speed: 2
-    m_Value: 5.060981
+    m_Value: 1.7830011
   m_Ortho:
     m_Target: 1
     speed: 2
