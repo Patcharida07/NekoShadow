@@ -1985,6 +1985,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RealBox (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6559528029916656743, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7860180170551466833, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.21060058
@@ -2036,6 +2040,22 @@ PrefabInstance:
     - target: {fileID: 7860180170551466833, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
+      propertyPath: m_Mass
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 10af28cd29ad1bf4497b959e56dac8e7, type: 2}
+    - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
+      propertyPath: m_LinearDamping
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
+      propertyPath: m_AngularDamping
+      value: 9999
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10262,7 +10282,7 @@ GameObject:
   - component: {fileID: 1161388416}
   m_Layer: 14
   m_Name: Floor (17)
-  m_TagString: Ground
+  m_TagString: gravel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14584,7 +14604,7 @@ GameObject:
   - component: {fileID: 1612201285}
   m_Layer: 14
   m_Name: Floor (18)
-  m_TagString: Ground
+  m_TagString: gravel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16526,8 +16546,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
+      propertyPath: m_Mass
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 10af28cd29ad1bf4497b959e56dac8e7, type: 2}
+    - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
       propertyPath: m_Constraints
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
+      propertyPath: m_LinearDamping
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
+      propertyPath: m_AngularDamping
+      value: 9999
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19013,6 +19049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShadowPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 7474954480243393613, guid: 95d01e683faab6d45b11a3fcf980bb01, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 0579244b837f8b54f953cea50d80abd9, type: 2}
     - target: {fileID: 8513276879328561260, guid: 95d01e683faab6d45b11a3fcf980bb01, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.65
@@ -19077,6 +19117,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 6559528029916656743, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 10af28cd29ad1bf4497b959e56dac8e7, type: 2}
     - target: {fileID: 7860180170551466833, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.20422085
@@ -19131,19 +19175,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
       propertyPath: m_Mass
-      value: 50
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
       propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 10af28cd29ad1bf4497b959e56dac8e7, type: 2}
+    - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
       propertyPath: m_GravityScale
-      value: 50
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
+      propertyPath: m_LinearDamping
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973818225830965114, guid: 9869b37b3b9eb4b4ba7b3a2966cdfba7, type: 3}
+      propertyPath: m_AngularDamping
+      value: 9999
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19302,7 +19358,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2677806594637194401, guid: fd44916e440efec41a897a3d83407f65, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.05
+      value: 29.24
       objectReference: {fileID: 0}
     - target: {fileID: 2677806594637194401, guid: fd44916e440efec41a897a3d83407f65, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19360,6 +19416,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.007789716
       objectReference: {fileID: 0}
+    - target: {fileID: 8861387535712068497, guid: fd44916e440efec41a897a3d83407f65, type: 3}
+      propertyPath: m_Mass
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8861387535712068497, guid: fd44916e440efec41a897a3d83407f65, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 0579244b837f8b54f953cea50d80abd9, type: 2}
     - target: {fileID: 9093014960622849804, guid: fd44916e440efec41a897a3d83407f65, type: 3}
       propertyPath: m_Name
       value: RealPlayer

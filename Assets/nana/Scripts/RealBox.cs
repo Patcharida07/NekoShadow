@@ -5,9 +5,22 @@ public class RealBox : MonoBehaviour
     private Rigidbody2D rb;
     [HideInInspector] public bool isInLight = false;
 
-    void Awake()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+    }
+
+    //void Awake()
+    //{
+    //    rb = GetComponent<Rigidbody2D>();
+    //}
+
+    private void FixedUpdate()
+    {
+        if (Mathf.Abs(rb.linearVelocity.x) < 0.05f)
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+        }
     }
 
     void OnCollisionStay2D(Collision2D collision)
