@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PuzzleLogListener : MonoBehaviour
 {
@@ -20,6 +22,22 @@ public class PuzzleLogListener : MonoBehaviour
         {
             if (completeImage != null)
                 completeImage.SetActive(true);
+
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.puzzleCompleted = true;   // เปิด bridge
+                GameManager.Instance.returnFromPuzzle = true;  // flag กลับตำแหน่ง player
+                GameManager.Instance.isInPuzzle = false;
+            }
+
+            StartCoroutine(ReturnToPrevious());
         }
+    }
+
+    IEnumerator ReturnToPrevious()
+    {
+        yield return new WaitForSeconds(2f); // ให้ผู้เล่นเห็น completeImage
+        if (GameManager.Instance != null && !string.IsNullOrEmpty(GameManager.Instance.previousScene))
+            SceneManager.LoadScene(GameManager.Instance.previousScene, LoadSceneMode.Single);
     }
 }

@@ -14,13 +14,15 @@ public class PlayerController : MonoBehaviour
     public float groundCheckRadius = 0.15f;
 
     [Header("Debug")]
-    public bool isGrounded = false; // Show in Inspector
-    public bool canControl = true;  // Disable when inactive
+    public bool isGrounded = false;
+    public bool canControl = true; // แทน canMove
 
     private Animator anim;
     private Rigidbody2D rb;
     private Collider2D playerCol;
-    public bool canMove = true;
+
+    private Rigidbody2D liftRb; // ถ้า player อยู่บน Lift
+    private Vector2 liftVelocity;
 
     void Start()
     {
@@ -52,38 +54,31 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (!canMove) return;
+        if (!canControl) return;
 
-        // Horizontal movement
+        // Input ของผู้เล่น
         float moveX = Input.GetAxisRaw("Horizontal");
-        rb.linearVelocity = new Vector2(moveX * moveSpeed, rb.linearVelocity.y);
 
-        // Flip character based on direction
-        if (moveX > 0)
-        {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-        }
-        else if (moveX < 0)
-        {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
-        }
-
-        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space)) && isGrounded)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        }
-
-        // Update Animator
+        // Animator → ใช้ input เท่านั้น
         anim.SetFloat("Speed", Mathf.Abs(moveX));
         anim.SetBool("IsJumping", !isGrounded);
 
+        // Rigidbody velocity = input + Lift velocity
+        Vector2 playerVelocity = new Vector2(moveX * moveSpeed, rb.linearVelocity.y);
+        Vector2 liftOffset = liftRb != null ? new Vector2(0, liftVelocity.y) : Vector2.zero;
+        rb.linearVelocity = playerVelocity + liftOffset;
+
+        // Flip
+        if (moveX > 0) transform.rotation = Quaternion.Euler(0, 0, 0);
+        else if (moveX < 0) transform.rotation = Quaternion.Euler(0, 180, 0);
+
+        // Jump
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space)) && isGrounded)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce) + liftOffset;
+        }
     }
 
-    public void SetCanMove(bool value)
-    {
-        canMove = value;
-        // Debug.Log("SetCanMove: " + value);
-    }
 
     void FixedUpdate()
     {
@@ -109,6 +104,11 @@ public class PlayerController : MonoBehaviour
             }
             if (isGrounded) break;
         }
+    }
+
+    public void SetCanControl(bool value)
+    {
+        canControl = value;
     }
 
     void OnDrawGizmosSelected()

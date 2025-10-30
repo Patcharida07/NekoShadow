@@ -37,9 +37,19 @@ public class GameUIManager : MonoBehaviour
     public void OnRestart()
     {
         Time.timeScale = 1f;
-        UnityEngine.SceneManagement.SceneManager.LoadScene(
-            UnityEngine.SceneManagement.SceneManager.GetActiveScene().name
-        );
+
+        // รีเซ็ต GameManager เพื่อให้ bridge ปิด
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.puzzleCompleted = false;
+            GameManager.Instance.returnFromPuzzle = false;
+            GameManager.Instance.hasSavedPosition = false;
+            GameManager.Instance.isInPuzzle = false;
+        }
+
+        // โหลด scene ปัจจุบันใหม่ → รีเซ็ตทุกอย่าง
+        string current = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(current, LoadSceneMode.Single);
     }
 
     // ปุ่ม How To Play → เปิด Panel วิธีเล่น

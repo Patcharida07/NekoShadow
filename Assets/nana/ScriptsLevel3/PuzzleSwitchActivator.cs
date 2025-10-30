@@ -16,20 +16,27 @@ public class PuzzleSwitchActivator : MonoBehaviour
 
             if (totalCollected >= requiredNumbers)
             {
-                // รีเซ็ต flag ก่อนเข้า puzzle
                 if (GameManager.Instance != null)
+                {
                     GameManager.Instance.puzzleCompleted = false;
 
-                // บันทึกตำแหน่งผู้เล่น
-                GameObject player = GameObject.FindGameObjectWithTag("Player");
-                if (player != null)
-                {
-                    GameManager.Instance.lastPlayerPosition = player.transform.position;
-                    GameManager.Instance.hasSavedPosition = true;
+                    // บันทึกชื่อฉากก่อนเข้า Puzzle
+                    GameManager.Instance.previousScene = SceneManager.GetActiveScene().name;
+
+                    // บันทึกตำแหน่งผู้เล่นไว้ก่อน (ใช้เมื่อตอบปริศนาเสร็จ)
+                    GameObject player = GameObject.FindGameObjectWithTag("Player");
+                    if (player != null)
+                    {
+                        GameManager.Instance.lastPlayerPosition = player.transform.position;
+                        GameManager.Instance.hasSavedPosition = true;
+                    }
+
+                    // บอกว่าเราจะเข้า Puzzle
+                    GameManager.Instance.isInPuzzle = true;
+                    GameManager.Instance.returnFromPuzzle = false; // รีเซ็ต เผื่อค่านี้ยังถูกตั้งไว้ก่อนหน้า
                 }
 
-                // โหลด Puzzle Scene
-                SceneManager.LoadScene("NewPuzzle");
+                SceneManager.LoadScene("NewPuzzle", LoadSceneMode.Single);
             }
         }
     }
